@@ -1,7 +1,9 @@
 div {
   width: 300px;
 }
-
+h1 { 
+  color: blue;
+}
 media (max-width: 767px) {
 }
 
