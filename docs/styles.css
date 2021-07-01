@@ -1,15 +1,92 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+body {
+	position: relative;
+}
+
 div {
-  box-sizing: border-box;
+	position: relative;
 }
 
-media (max-width: 767px) {
+h1 {
+	text-align: center;
+	font-size: 1.75em;
 }
 
-media (min-width: 768px) and (max-width: 991px) {
+h2 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: 1px solid black;
+	padding: 2px 20px;
+	margin: 0px;
+	font-size: 1.25em;
+}
+p {
+	position: relative;
+	padding-top: 3%;
+	
 }
 
-media (min-width: 992px) {
-  div {
-    width: 10%;
-  }
+.box {
+	margin: 1%;
+	padding: 10px;
+	border: 1px solid black;
+	background-color: pink;
+	
+}
+.chicken {
+	background-color: yellow;
+	color: navy;
+}
+.beef {
+	background-color: black;
+	color: white;
+}
+.pork {
+	background-color: purple;
+	color: white;
+}
+
+@media (max-width: 767px) {
+	.box {
+		margin: 2%;
+	}
+	.box1 {
+		width: 96%;
+		float: left;
+	}
+	.box2 {
+		width: 96%;
+		clear: left;
+	}
+	.box3 {
+		width: 96%;
+		clear: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.box1, .box2 {
+		box-sizing: border-box;
+		width: 48%;
+		float: left;
+	}
+	.box3 {
+		box-sizing: border-box;
+		width: 98%;
+		clear: left;
+	}
+}
+
+@media (min-width: 992px) {
+	.box {
+		box-sizing: border-box;
+		width: 31.3%;
+		float: left;
+	}
 }
