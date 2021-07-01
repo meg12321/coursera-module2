@@ -1,5 +1,6 @@
 div {
   width: 300px;
+  float: left;
 }
 h1 { 
   color: blue;
