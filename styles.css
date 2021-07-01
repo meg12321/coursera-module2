@@ -9,4 +9,8 @@ media (min-width: 768px) and (max-width: 991px) {
 }
 
 media (min-width: 992px) {
+  section {
+    width: 30%;
+    float: left;
+  }
 }
