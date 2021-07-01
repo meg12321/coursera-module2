@@ -1,9 +1,7 @@
 div {
   box-sizing: border-box;
 }
-h1 { 
-  color: blue;
-}
+
 media (max-width: 767px) {
 }
 
